@@ -8,12 +8,7 @@ import 'react-multi-carousel/lib/styles.css';
 import youngModelRed from "./images/young-model-red-bodycon-dress_144627-33413-removebg-preview.png";
 import { CustomLeftArrow , CustomRightArrow } from './customArrows.jsx';
 import {Rating , Stack} from '@mui/material/';
-import EUROAI2british1 from "./images/main-qimg-645fe83573b4912645b701b5502b62a2-lq-removebg-preview.jpg";
-import laserResurfacingImage from "./images/MaskGroup(6).png";
-import chemicalPeelsImage from './images/chemical_peels..png';       // replace with actual image import
-import acneBluelightImage from './images/acnebluelight.png';       // replace with actual image import
-import thermageImage from './images/thermageImage.png';                  // replace with actual image import
-import botoxImage from './images/botoxImage.png';   
+import EUROAI2british1 from "./images/main-qimg-645fe83573b4912645b701b5502b62a2-lq-removebg-preview.jpg"; 
 import ClientsTestimonialsImage from "./images/Client’sTestimonialsImage.png";
 const ClintReveiwSlide = () => {
     const responsive = {
