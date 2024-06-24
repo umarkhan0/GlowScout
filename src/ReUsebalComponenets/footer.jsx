@@ -3,7 +3,7 @@ const Footer = () => {
         <>
             <footer className="pt-3 border-t-4 border-[#000] flex justify-end flex-col items-center">
                 <div className="bg-[#121212] rounded-t-lg py-6 w-[80%] flex flex-col md:flex-row justify-around items-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                    <p className="text-[#FEF5E3] text-[45px] leading-10 font-[Valky] text-center md:text-left mb-4 md:mb-0 animate-pulse">Glow <br /> Scout</p>
+                    <p className="text-[#FEF5E3] text-[55px] leading-[1.10] font-[Valky] text-center md:text-left mb-4 md:mb-0 animate-pulse">Glow <br /> Scout</p>
                     <div className="flex flex-col md:flex-row justify-around w-full md:w-[60%]">
                         <ul className="font-medium mb-4 md:mb-0">
                             <li className="mb-4 leading-6">

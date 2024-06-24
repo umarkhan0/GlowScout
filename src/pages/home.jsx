@@ -1,10 +1,6 @@
-import TopArrow from "../ReUsebalComponenets/TopArrow";
 import DrawerAppBar from "../ReUsebalComponenets/header";
-import Slider from "../HomepageCom/slider";
-import Counter from "../HomepageCom/counter";
 import OpenInFullIcon from '@mui/icons-material/OpenInFull';
 import { Stack, Button } from "@mui/material";
-import SwiperSlider from '../ReUsebalComponenets/cardsCarasol.jsx';
 import butifullGirl from "../images/firstContainerButifullGirl.png"
 import BasicSelect from "../ReUsebalComponenets/select.jsx";
 import SececendSectionSecendImage from "../pages/HomepageComponent/images/SecondImage.png";
