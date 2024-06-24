@@ -5,6 +5,7 @@ import logo3 from "../images/icons/Icon (2).png";
 import React, { useState, useEffect } from 'react';
 import { Stack, Button } from "@mui/material";
 import CountUp from 'react-countup';
+import SececendSectionSecendImage from "../pages/HomepageComponent/images/SecondImage.png"
 export default function Counter() {
     const [isVisible, setIsVisible] = useState(false);
 
@@ -33,25 +34,13 @@ export default function Counter() {
     return (
         <div className=" mt-8 flex justify-around flex-wrap ">
             <div className=" sm:w-[45%] w-full justify-center flex flex-col sm:justify-between  sm:p-5 p-2">
-                <div>
-                    <p className=" font-[Raleway] font-[400]  text-center text-[30px]">
-                        More than 300
-                    </p>
-                    <p className=" font-[Raleway] text-center font-[600] leading-7  text-[#F35925] text-[35px]">
-                        Satisfied clients
-                    </p>
-                </div>
-                <p className=" mb-3 sm:mb-0 font-[Raleway] opacity-100 text-justify mx-0 leading-4 mt-4  text-[15px]">
-                    Collaboratively administrate empowered markets via plug-and-play networks.
-                    Dynamically procrastinate B2C users after installed base benefits. Dramatically
-                    visualize customer directed convergence without revolutionary ROI. Efficiently
-                    unleash cross-media information without cross-media value.
-                </p>
+             
+              
 
                 <div className=" flex justify-between sm:flex-nowrap flex-wrap">
                     <div className="  shadow-sm rounded-sm w-full bg-[#e5e4e2] flex flex-col p-3 items-center  justify-center">
 
-                        <img className=" h-20 w-20 " src={logo1} alt="" />
+                        <img className=" h-20 w-20 " src={"https://uxwing.com/wp-content/themes/uxwing/download/editing-user-action/signup-icon.png"} alt="" />
                         <p className=" text-[40px] font-bold border-b border-[#fe693c] mt-4 font-[Raleway]">
 
 
@@ -78,7 +67,7 @@ export default function Counter() {
                     </div>
                     <div className="  shadow-sm rounded-sm w-full bg-[#e5e4e2] flex flex-col p-3 items-center  justify-center">
 
-                        <img className=" h-20 w-20 " src={logo2} alt="" />
+                        <img className=" h-20 w-20 " src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbHGIei6gkQ8B1M1AQcbyUUIOXqRL9oDeGnLRTOUmJHioCEW7kv9BRGi41SarSipXrs9U&usqp=CAU"} alt="" />
                         <p className=" text-[40px] font-bold border-b border-[#fe693c] mt-4 font-[Raleway]">
 
                             <div id="counter">
@@ -98,7 +87,7 @@ export default function Counter() {
                     </div>
                     <div className="  shadow-sm rounded-sm w-full bg-[#e5e4e2] flex flex-col p-3 items-center  justify-center">
 
-                        <img className=" h-20 w-20 " src={logo3} alt="" />
+                        <img className=" h-20 w-20 " src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR3jeCmsS0EEhcviWJx2xYkvNrArWd8dwFvQ&s"} alt="" />
                         <p className=" text-[40px] font-bold border-b border-[#fe693c] mt-4 font-[Raleway]">
                             <div id="counter">
                                 <CountUp start={0} end={35} duration={2} useEasing={true} startOnMount={false} redraw={true} >
@@ -116,12 +105,7 @@ export default function Counter() {
 
                     </div>
                 </div>
-                <p className=" mt-3 sm:mt-0 font-[Raleway] opacity-100 text-justify mx-0 leading-4  text-[15px]">
-                    Completely synergize resource taxing relationships via premier niche markets.
-                    Professionally cultivate one-to-one customer service with robust ideas.
-                    Dynamically innovate resource-leveling customer service for state of the art
-                    customer service.
-                </p>
+                
                 <div className="sm:mt-0  mt-3">
                 <Stack direction="row" spacing={2} >
                     <Button variant="contained" sx={{
@@ -144,10 +128,7 @@ export default function Counter() {
 
 
             </div>
-            <div className=" sm:w-[40%] flex w-full justify-center">
-                <img className=" h-[630px]" src={mockUp} alt="" />
-            </div>
-
+         
 
         </div>
     )

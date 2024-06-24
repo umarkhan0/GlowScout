@@ -1,37 +1,29 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import InputLabel from '@mui/material/InputLabel';
-import MenuItem from '@mui/material/MenuItem';
-import FormControl from '@mui/material/FormControl';
-import Select from '@mui/material/Select';
+import React, { useState } from 'react';
 
-export default function BasicSelect(props) {
-  const [age, setAge] = React.useState('');
+const BasicSelect = (props) => {
+  const [selectedCountry, setSelectedCountry] = useState('');
 
   const handleChange = (event) => {
-    setAge(event.target.value);
+    setSelectedCountry(event.target.value);
   };
 
   return (
-    <Box sx={{ minWidth: "35%" }}>
-      <FormControl fullWidth>
-        <InputLabel id="demo-simple-select-label">{props.placholder}</InputLabel>
-        <Select
-          labelId="demo-simple-select-label"
-          id="demo-simple-select"
-          value={age}
-          label="Age"
-          onChange={handleChange}
-          sx={{  textAlign: "center", outline: "1px solid black", borderRadius: "30px" }}
-        >
-          <MenuItem value={10}>Ten</MenuItem>
-          <MenuItem value={20}>Twenty</MenuItem>
-          <MenuItem value={30}>Thirty</MenuItem>
-        </Select>
-      </FormControl>
-    </Box>
+    <form className="max-w-sm mx-auto">
+     
+      <select
+        id="countries"
+        className="bg-gray-50 border rounded-full border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        value={selectedCountry}
+        onChange={handleChange}
+      >
+        <option value="">{props.placholder}</option>
+        <option value="US">United States</option>
+        <option value="CA">Canada</option>
+        <option value="FR">France</option>
+        <option value="DE">Germany</option>
+      </select>
+    </form>
   );
-}
+};
 
-
-
+export default BasicSelect;
